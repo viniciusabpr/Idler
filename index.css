@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(157, 255, 222);
+ 
+    
+}
+
+header{
+    background-color: rgb(22, 19, 19);
+    height: 8vh;
+    text-align: center;
+    padding-top: 10px;
+    color: aliceblue;
+    width: 100vw;
+    
+
+
+}
+
+
+.coin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img{
+    width: 350px;
+    user-select: none;
+
+}
+
+.img:hover{
+    cursor: pointer;
+}
+
+.img:active{
+    opacity: 0.9;
+    transform: scale(1.1);
+}
+
+.img-upgrade img{
+    width: 75px;
+    padding-right: 15px;
+}
+
+.secao-upgrade{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;   
+    padding-right: 80px;
+ 
+   }
+
+
+
+.upgrade{
+    display: flex;
+    border:  2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+   
+  
+
+}
+
+.upgrade-section h2{ 
+    padding-bottom: 20px;
+    
+}
+
+.upgrade-quantidade{
+    padding-left: 15px;
+    font-size: 16px;
+    color: aliceblue;
+    
+}
+
+.upgrade-quantidade h2{
+    padding-bottom: 20px;
+   
+}
+
+.informacaodolvl{
+    position: absolute;
+    right: -83px;
+    background-color: rgb(255, 230, 0);
+    width: 80px;
+    height: 75px;
+    border-radius: 5px;
+    display: none;
+}
+
+.upgrade:hover .informacaodolvl{
+    display: block;
+}
