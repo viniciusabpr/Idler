@@ -5,7 +5,11 @@
 
 body{
     background-color: rgb(157, 255, 222);
- 
+    background-image: url(s2orDTfF.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-attachment: fixed;
+    background-size: cover;
     
 }
 
@@ -45,7 +49,7 @@ header{
 
 .img-upgrade img{
     width: 75px;
-    padding-right: 15px;
+    padding:10px 20px
 }
 
 .secao-upgrade{
@@ -53,6 +57,7 @@ header{
     flex-direction: column;
     align-items:flex-end;   
     padding-right: 80px;
+    gap: 12px;
  
    }
 
@@ -65,13 +70,17 @@ header{
     padding: 10px;
     cursor: pointer;
     position: relative;
+    width: 500px;
+    background-color: rgb(194, 161, 112);
    
-  
+
 
 }
 
 .upgrade-section h2{ 
     padding-bottom: 20px;
+    padding-right: 55px;
+    font-size: 25px;
     
 }
 
@@ -99,4 +108,12 @@ header{
 
 .upgrade:hover .informacaodolvl{
     display: block;
+}
+
+.seguidor {
+    color: beige;
+}
+
+.coin {
+    color:rgb(214, 236, 8)
 }
